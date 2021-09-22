@@ -14259,87 +14259,220 @@ a.anchor-link {
 
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="CRQS-11am-Wednesday-September-8th--2021">CRQS 11am Wednesday September 8th  2021<a class="anchor-link" href="#CRQS-11am-Wednesday-September-8th--2021">&#182;</a></h1><h1 id="-----------------------------------------------------------------------------------------------">-----------------------------------------------------------------------------------------------<a class="anchor-link" href="#-----------------------------------------------------------------------------------------------">&#182;</a></h1><h1 id="Introduction-to-the-'Historical-Data-Digital-Toolkit'-(HDDT),">Introduction to the 'Historical Data Digital Toolkit' (HDDT),<a class="anchor-link" href="#Introduction-to-the-'Historical-Data-Digital-Toolkit'-(HDDT),">&#182;</a></h1><h1 id="the-centres-for-the-emergence-of-anthropology-in-Britain-1830--1870">the centres for the emergence of anthropology in Britain 1830 -1870<a class="anchor-link" href="#the-centres-for-the-emergence-of-anthropology-in-Britain-1830--1870">&#182;</a></h1><h1 id="and-the-600-Quakers-amongst-3000-institution-builders.">and the 600 Quakers amongst 3000 institution builders.<a class="anchor-link" href="#and-the-600-Quakers-amongst-3000-institution-builders.">&#182;</a></h1><h3 id="(This-is-an-HTML-rendition-of-a-Jupyter-Notebook)">(This is an HTML rendition of a Jupyter Notebook)<a class="anchor-link" href="#(This-is-an-HTML-rendition-of-a-Jupyter-Notebook)">&#182;</a></h3><h1 id="------------------------------------------------------------------------------------------------">------------------------------------------------------------------------------------------------<a class="anchor-link" href="#------------------------------------------------------------------------------------------------">&#182;</a></h1>
+<h1 id="Introduction-to-the-'Historical-Data-Digital-Toolkit'-(HDDT)">Introduction to the 'Historical Data Digital Toolkit' (HDDT)<a class="anchor-link" href="#Introduction-to-the-'Historical-Data-Digital-Toolkit'-(HDDT)">&#182;</a></h1><h1 id="The-centres-for-the-emergence-of-anthropology-in-Britain-1830--1870,">The centres for the emergence of anthropology in Britain 1830 -1870,<a class="anchor-link" href="#The-centres-for-the-emergence-of-anthropology-in-Britain-1830--1870,">&#182;</a></h1><h1 id="and-the-600-Quakers-amongst-3000-institution-builders.">and the 600 Quakers amongst 3000 institution builders.<a class="anchor-link" href="#and-the-600-Quakers-amongst-3000-institution-builders.">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Outline-of-my-presentation:">Outline of my presentation:<a class="anchor-link" href="#Outline-of-my-presentation:">&#182;</a></h1><h2 id="Introductions---2-mins">Introductions - 2 mins<a class="anchor-link" href="#Introductions---2-mins">&#182;</a></h2><h2 id="Outline-of-my-project---10-mins">Outline of my project - 10 mins<a class="anchor-link" href="#Outline-of-my-project---10-mins">&#182;</a></h2><h2 id="Brief-pause">Brief pause<a class="anchor-link" href="#Brief-pause">&#182;</a></h2><h2 id="'600-Quakers'---10-mins">'600 Quakers' - 10 mins<a class="anchor-link" href="#'600-Quakers'---10-mins">&#182;</a></h2><h2 id="Brief-pause">Brief pause<a class="anchor-link" href="#Brief-pause">&#182;</a></h2><h2 id="The-HDDT---10-mins">The HDDT - 10 mins<a class="anchor-link" href="#The-HDDT---10-mins">&#182;</a></h2><h2 id="Brief-pause">Brief pause<a class="anchor-link" href="#Brief-pause">&#182;</a></h2><h2 id="'3000-people-involved-in-the-development-of-the">'3000 people involved in the development of the<a class="anchor-link" href="#'3000-people-involved-in-the-development-of-the">&#182;</a></h2><h2 id="centres-for-the-emergence-of-the-discipline-of-anthropology-in-Britian-(-CEDA)">centres for the emergence of the discipline of anthropology in Britian ( CEDA)<a class="anchor-link" href="#centres-for-the-emergence-of-the-discipline-of-anthropology-in-Britian-(-CEDA)">&#182;</a></h2><h2 id="1830---1870'---10-mins">1830 - 1870' - 10 mins<a class="anchor-link" href="#1830---1870'---10-mins">&#182;</a></h2><h2 id="Discussion---15-mins">Discussion - 15 mins<a class="anchor-link" href="#Discussion---15-mins">&#182;</a></h2><h1 id="--------------------------------------------------------------------------------------------------------">--------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#--------------------------------------------------------------------------------------------------------">&#182;</a></h1>
+<table>
+<thead><tr>
+<th>Jump to:</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#1">My PhD project</a></td>
+</tr>
+<tr>
+<td><a href="#2">HDDT Objective</a></td>
+</tr>
+<tr>
+<td><a href="#3">Datasets</a></td>
+</tr>
+<tr>
+<td><a href="#4">Data Pipeline</a></td>
+</tr>
+<tr>
+<td><a href="#5">SQLite Database</a></td>
+</tr>
+<tr>
+<td><a href="#6">Architecture</a></td>
+</tr>
+<tr>
+<td><a href="#7">Big Data</a></td>
+</tr>
+</tbody>
+</table>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="This-is-a-code-cell">This is a code cell<a class="anchor-link" href="#This-is-a-code-cell">&#182;</a></h1>
+<p><a id='1'></a></p>
+<h1 id="1.-My-PhD-project">1. My PhD project<a class="anchor-link" href="#1.-My-PhD-project">&#182;</a></h1>
 </div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[1]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># First we call up the python packages we need to perform the analysis:</span>
-
-<span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
-<span class="kn">import</span> <span class="nn">matplotlib.pyplot</span> <span class="k">as</span> <span class="nn">plt</span>
-<span class="n">plt</span><span class="o">.</span><span class="n">rc</span><span class="p">(</span><span class="s1">&#39;figure&#39;</span><span class="p">,</span> <span class="n">figsize</span><span class="o">=</span><span class="p">(</span><span class="mi">20</span><span class="p">,</span> <span class="mi">10</span><span class="p">))</span>
-<span class="kn">from</span> <span class="nn">operator</span> <span class="kn">import</span> <span class="n">itemgetter</span>
-<span class="kn">import</span> <span class="nn">networkx</span> <span class="k">as</span> <span class="nn">nx</span>
-<span class="kn">from</span> <span class="nn">networkx.algorithms</span> <span class="kn">import</span> <span class="n">community</span> <span class="c1">#This part of networkx, </span>
-<span class="c1">#for community detection, needs to be imported separately.</span>
-<span class="kn">import</span> <span class="nn">nbconvert</span>
-<span class="kn">import</span> <span class="nn">csv</span>
-
-<span class="c1"># &lt;img src=&quot;xxxx.png&quot;&gt;</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="---------------------------------------------------------------------------------------------------------">---------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#---------------------------------------------------------------------------------------------------------">&#182;</a></h1><h1 id="My-PhD-project">My PhD project<a class="anchor-link" href="#My-PhD-project">&#182;</a></h1><h2 id="Subject:">Subject:<a class="anchor-link" href="#Subject:">&#182;</a></h2><p>My own research, in collaboration with others, has revealed the extensive social connectivity between the roughly 600 members of a ‘Quaker Led Network (QLN)’ and their involvement within a community of  roughly 3000, spread across four organisations in Britain active between 1830 and 1870, which the QLN network helped to set up and staff. I call these, the ‘Centres for the Emergence of Discipline of Anthropology in Britain’ (CEDA).</p>
-<h2 id="Question-1:">Question 1:<a class="anchor-link" href="#Question-1:">&#182;</a></h2><p>What can be revealed if a historian uses data science to study a large historical community over a long period of time by bringing together and integrating metadata from catalogues, indexes, and genealogical data?</p>
-<h2 id="Methodology:">Methodology:<a class="anchor-link" href="#Methodology:">&#182;</a></h2><p>I have designed, built and I am now using a suite of open-source and reproducible relational database technologies and digital analytic tools to visualise and scrutinise the entire community of some 3000 activists over 40 years (1830-1870), picking out the Quakers amongst them so that the community can be explored at both group and individual level. I am able to model the ‘connected’ relationships between the individual members of the CEDA through time, including kinship, education, occupations, locations and organisations.</p>
+<h2 id="Subject:">Subject:<a class="anchor-link" href="#Subject:">&#182;</a></h2><p>My own research, in collaboration with others, has revealed the extensive social connectivity between the roughly 600 members of a ‘Quaker Led Network (QLN)’ and their involvement within a community of  roughly 3000, spread across four organisations in Britain active between 1830 and 1870, which the QLN network helped to set up and staff. I call these, the ‘Centres for the Emergence of Discipline of Anthropology in Britain’ (CEDA).</p>
+<h2 id="Question-1:">Question 1:<a class="anchor-link" href="#Question-1:">&#182;</a></h2><p>What can be revealed if a historian uses data science to study a large historical community over a long period of time by bringing together and integrating metadata from catalogues, indexes, and genealogical data from different sources?</p>
+<h2 id="Methodology:">Methodology:<a class="anchor-link" href="#Methodology:">&#182;</a></h2><p>I have designed, built and I am now using a suite of open-source and reproducible relational database technologies and digital analytic tools to visualise and scrutinise the entire community of some 3000 activists over 40 years (1830-1870), picking out the Quakers amongst them so that the community can be explored at both group and individual level. I am able to model the ‘connected’ relationships between the individual members of the CEDA through time, including kinship, education, occupations, locations and organisations.I call my model the Historical Data Digital Toolkit (HDDT).</p>
 <h2 id="Question-2:">Question 2:<a class="anchor-link" href="#Question-2:">&#182;</a></h2><p>What is the extent of Quaker involvement in the CEDA, over the 40 year time span researched, and was Quaker kinship as socially cohesive as (say) education or occupation amongst the wider community?</p>
-<h1 id="---------------------------------------------------------------------------------------------------------">---------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#---------------------------------------------------------------------------------------------------------">&#182;</a></h1>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Working-with-a-variety-of-datatables">Working with a variety of datatables<a class="anchor-link" href="#Working-with-a-variety-of-datatables">&#182;</a></h2><h3 id="A-'complete'-dataset">A 'complete' dataset<a class="anchor-link" href="#A-'complete'-dataset">&#182;</a></h3><p>Would be one like this, where all of the data can be contained witin a perfect rectangular block of cells ('containers') and every container contains only one data item and every data item can be located by the coordinates 'Row n, Column n'</p>
-<p><img src="data 1.png"></p>
+<p><a id='2'></a></p>
+<h1 id="2-HTTD-Objective">2 HTTD Objective<a class="anchor-link" href="#2-HTTD-Objective">&#182;</a></h1><p>To enable historians to create a desktop data pipeline by integrating multiple archival data piplines into one SQLite HDDT database. The resulting HDDT data can then be cleaned, viewed, analysed and visualised by using compatible open source software packages. The HDDT is designed to enable historical ordered data to be surveyed, much as an archaeologist might use a variety of technologies to survey a territorial site of historical interest. The HDDT is not a tool for finding individual or even several items in an archive.</p>
+<p>The HDDT constitutes a new approach to digital and nineteenth century history with the use of data science techniques deployed to the study of ordered historical data. 
+Exponential population growth in the nineteenth century combined with a cultural, disciplined  and extensive interest in collecting, cataloguing and preserving historial artefacts and manuscripts, offers to the historian an opportunity to study communities and whole societies en masse.
+The historical archives of the nineteenth century are often very large (and are immense when viewed collectively), they are too big to be surveyed by the naked eye or even by using 'office' based technologies. Nonetheless they offer rich sources of ordered data sets (organised, catalogued and frequently cross-referenced to each other).
+Further more, archived nineteenth century manuscripts frequently include within them ordered data items including surveys, lists and indexes. These are a rich source of historical data. Data science is now capable of handing odereded historical data on large scales, it is time to devise a way for digital historical data to be studied in and of itself, free of narratology and capable of including mass data. In the past, historical research in the archive was largely limited to using search engines to 'narrow down' from the whole of the collection to a discrete set of manuscripts or artefacts to produce a manageble handfull of items capable of study by a few visits (usually) by one historian to an archive.
+This approach is still immensely valuabe but when looking at the modern period, it is insufficient, because it leaves too much unaccounted for, leaves too many ignored and uses a torch where a lighthouse is needed.
+The HDDT addresses this need and provides a satisfactory way of studying mass data.</p>
+<h3 id="Archival-data-can-now-be-surveyed-much-as-an-archaeological-site-can---by-using-technology">Archival data can now be surveyed much as an archaeological site can - by using technology<a class="anchor-link" href="#Archival-data-can-now-be-surveyed-much-as-an-archaeological-site-can---by-using-technology">&#182;</a></h3>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="diggers.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a id='3'></a></p>
+<h1 id="3-Contributing-datasets">3 Contributing datasets<a class="anchor-link" href="#3-Contributing-datasets">&#182;</a></h1>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="The-HDDT-integrates-ordered-datasets-from-a-variety-of-sources-to-create-one-SQLite-HTTD-database">The HDDT integrates ordered datasets from a variety of sources to create one SQLite HTTD database<a class="anchor-link" href="#The-HDDT-integrates-ordered-datasets-from-a-variety-of-sources-to-create-one-SQLite-HTTD-database">&#182;</a></h2><p>Historians can create a bespoke database taking data from multiple sources using the HDDT. This project takes data from:</p>
+<table>
+<thead><tr>
+<th>Source</th>
+<th>Records</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Royal Anthropological Insitiute (RAI)</td>
+<td>2260</td>
+</tr>
+<tr>
+<td>Quaker Family History Society (QFHS)</td>
+<td>593</td>
+</tr>
+<tr>
+<td>Independent research at RAI</td>
+<td>1171</td>
+</tr>
+<tr>
+<td>Independent research at Friends House Quaker Archive, London</td>
+<td>30</td>
+</tr>
+<tr>
+<td>total records</td>
+<td>3095</td>
+</tr>
+</tbody>
+</table>
+<p>Component datasets can be 'Complete', 'Incomplete' or 'Irregular' as long as the contributing datasets consist of records where at least one column is shared. In this Project person_name was common to all datasets.</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="data_1.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h3 id="A-'complete'-dataset">A 'complete' dataset<a class="anchor-link" href="#A-'complete'-dataset">&#182;</a></h3><p>Would be one like this, where all of the data can be contained witin a perfect rectangular block of cells ('containers') and every container contains only one data item and every data item can be located by the coordinates 'Row n, Column n'</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="data_2.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="An-'incomplete'-dataset">An 'incomplete' dataset<a class="anchor-link" href="#An-'incomplete'-dataset">&#182;</a></h3><p>When historical data is used often some data is missing (permanently lost) and the HDDT is able to accept 'Incomplete' datasets. The HDDT does not lose functionality because of the incomplete nature of much historical data.</p>
-<p><img src="data 2.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="data_3.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <h3 id="An-'irregular'-dataset">An 'irregular' dataset<a class="anchor-link" href="#An-'irregular'-dataset">&#182;</a></h3><p>The HDDT has been designed to accept Irregular datasets. The surviving evidence of the past is not only often Incomplete, it is frequently Irregular, where multiple datasets have different dimensions. (Either because the data in itself is intrinsically different or because different data collectors use different cataloguing methods)</p>
-<p><img src="data 3.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
 <p>For the HDDT a qualifying dataset is a data set of any dimensions, complete, incomplete or irregular. The only requirement is that all datasets must contain a single common containing one universally shared data item. The HDDT requires all data sets to contain datatables that can be referenced to a PERSON (Name) in one of its rows.</p>
-<p>Conflicts between dataset Person (Name)'s are resolved by adopting in this project by nominating the 'RAI dataset' as the 'Authority Index'. With careful matching of Person (Name)'s found in other datasets, the RAI naming rule applies throughout.</p>
-<h1 id="-------------------------------------------------------------------------------------------------------">-------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#-------------------------------------------------------------------------------------------------------">&#182;</a></h1>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="A-relational-database-(Bigraph,-Social-Network,-Dynamic?)">A relational database (Bigraph, Social Network, Dynamic?)<a class="anchor-link" href="#A-relational-database-(Bigraph,-Social-Network,-Dynamic?)">&#182;</a></h1><p><img src="bipartite_diag.png"></p>
-<h2 id="The-HDDT-can-do-all-three-(and-even-blend-types)">The HDDT can do all three (and even blend types)<a class="anchor-link" href="#The-HDDT-can-do-all-three-(and-even-blend-types)">&#182;</a></h2>
+<p><a id='4'></a></p>
+<h1 id="4-Data-pipeline">4 Data pipeline<a class="anchor-link" href="#4-Data-pipeline">&#182;</a></h1>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="--------------------------------------------------------------------------------------------------------">--------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#--------------------------------------------------------------------------------------------------------">&#182;</a></h1>
+<p><img src="pipeline.png"></p>
+
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="The-HDDT-seeded-data:">The HDDT seeded data:<a class="anchor-link" href="#The-HDDT-seeded-data:">&#182;</a></h1><h2 id="Total-records-(after-duplication-adjustments)-3095-comprising-including:">Total records (after duplication adjustments) 3095 comprising including:<a class="anchor-link" href="#Total-records-(after-duplication-adjustments)-3095-comprising-including:">&#182;</a></h2><h2 id="Quaker-Committee-on-the-Aborigines---30-records">Quaker Committee on the Aborigines - 30 records<a class="anchor-link" href="#Quaker-Committee-on-the-Aborigines---30-records">&#182;</a></h2><h2 id="Aborigines-Protection-Society-Subscribers---1171-records">Aborigines Protection Society Subscribers - 1171 records<a class="anchor-link" href="#Aborigines-Protection-Society-Subscribers---1171-records">&#182;</a></h2><h2 id="RAI-database-extract---2260-records">RAI database extract - 2260 records<a class="anchor-link" href="#RAI-database-extract---2260-records">&#182;</a></h2><h2 id="Quaker-Family-History-Society---593-records">Quaker Family History Society - 593 records<a class="anchor-link" href="#Quaker-Family-History-Society---593-records">&#182;</a></h2><h1 id="----------------------------------------------------------------------------------------------------------">----------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#----------------------------------------------------------------------------------------------------------">&#182;</a></h1>
+<h1 id="3-Relational-Database-options">3 Relational Database options<a class="anchor-link" href="#3-Relational-Database-options">&#182;</a></h1><h3 id="Bigraph,-Social-Network---Static-or-Dynamic?">Bigraph, Social Network - Static or Dynamic?<a class="anchor-link" href="#Bigraph,-Social-Network---Static-or-Dynamic?">&#182;</a></h3>
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="HDDT-design-architecture">HDDT design architecture<a class="anchor-link" href="#HDDT-design-architecture">&#182;</a></h1><table>
+<p><img src="bipartite_diag.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="The-HDDT-can-do-all-three-(and-even-blend-types)">The HDDT can do all three (and even blend types)<a class="anchor-link" href="#The-HDDT-can-do-all-three-(and-even-blend-types)">&#182;</a></h2><p>Throughout the HDDT Data items are variously called 'columns', 'names', nodes' and 'source and target' with the links bewteen data items being registered in 'many to many (m2m)' tables, all of which can be used to generate 'edges' tables (for data visualisation in Gephi).</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a id='5'></a></p>
+<h1 id="5-Integrated-HTTD-SQLite-database---3095-persons">5 Integrated HTTD SQLite database - 3095 persons<a class="anchor-link" href="#5-Integrated-HTTD-SQLite-database---3095-persons">&#182;</a></h1><h2 id="Entity-Relationship-Diagram-(ERD)">Entity Relationship Diagram (ERD)<a class="anchor-link" href="#Entity-Relationship-Diagram-(ERD)">&#182;</a></h2>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="erd.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>At the heart of the HDDT (and the SQLite database) is the 'person table', this holds the data (attributes) unique to each person. All contributing datasets have a person column and often attributes, some of which may be shared across datasets. Conflicts between dataset Person (Name)'s are resolved by choosing to accept the 'RAI dataset' as the 'Authority Index'. With careful matching of Person (Name)'s found in other datasets, the RAI naming rule therefore applies throughout.</p>
+<p>Tables of data items shared amongst persons (such as 'occupation', 'location', 'societies', 'clubs') are linked to the person table by m2m tables.</p>
+<p>There are also person_person tables to capture family relationships</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a id='6'></a></p>
+<h1 id="6-HDDT-Design-Architecture">6 HDDT Design Architecture<a class="anchor-link" href="#6-HDDT-Design-Architecture">&#182;</a></h1>
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p>The following packages are required to make the HDDT:</p>
+<table>
 <thead><tr>
 <th>package</th>
 <th>Use</th>
@@ -14376,211 +14509,118 @@ a.anchor-link {
 </tr>
 </tbody>
 </table>
-<h1 id="-----------------------------------------------------------------------------------------------------">-----------------------------------------------------------------------------------------------------<a class="anchor-link" href="#-----------------------------------------------------------------------------------------------------">&#182;</a></h1>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="My-GitHub-page">My GitHub page<a class="anchor-link" href="#My-GitHub-page">&#182;</a></h2><p><img src="git.png"></p>
+<p>They were chosen because they are universal, popular, open-source and suitable for handling historical ordered data.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="Visual-Studio-Code-(VSC)-for-database-building-and-git-interface">Visual Studio Code (VSC) for database building and git interface<a class="anchor-link" href="#Visual-Studio-Code-(VSC)-for-database-building-and-git-interface">&#182;</a></h2><p><img src="vsc.png"></p>
+<h2 id="Project-containers-contain-all-required-resources">Project containers contain all required resources<a class="anchor-link" href="#Project-containers-contain-all-required-resources">&#182;</a></h2><p>Data management needs caeful consideration and design. The HDDT uses the cocept of project containers where every container is set up and initialised as a GitHub repo. Then a Jupyter Notebook is created in the same container. All resources needed for a project are then copied from master containers (such as the template CSV files and dataframes in the ceda/database/views container.</p>
+<p>Gexf graph files and gexf project files also are set up and saved in each container.</p>
+<p>Relative links can then be used and their integrity preserved.</p>
+<p>GitGub can also be used for version control providing an audit trail of changes, additions and deletions to the HDDT system.</p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h2 id="DBeaver-for-data-management-and-analysis">DBeaver for data management and analysis<a class="anchor-link" href="#DBeaver-for-data-management-and-analysis">&#182;</a></h2><p><img src="DBeaver.png"></p>
-<h1 id="----------------------------------------------------------------------------------------------------------">----------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#----------------------------------------------------------------------------------------------------------">&#182;</a></h1>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="The-Entity-Relationship-Diagram-(ERD)-of-the-HDDT">The Entity Relationship Diagram (ERD) of the HDDT<a class="anchor-link" href="#The-Entity-Relationship-Diagram-(ERD)-of-the-HDDT">&#182;</a></h1>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<p><img src="ERD.png"></p>
-<h1 id="---------------------------------------------------------------------------------------------------------">---------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#---------------------------------------------------------------------------------------------------------">&#182;</a></h1>
-</div>
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="Visualising-the-data">Visualising the data<a class="anchor-link" href="#Visualising-the-data">&#182;</a></h1>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[2]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;vw_3_all_bipartite_names_1_2_202108181938.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">nodecsv</span><span class="p">:</span> <span class="c1"># Open the file</span>
-    <span class="n">nodereader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">nodecsv</span><span class="p">)</span> <span class="c1"># Read the csv</span>
-    <span class="n">nodes</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nodereader</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span>  <span class="c1"># Retrieve the data</span>
-    <span class="c1">#using Python list comprhension and list slicing to remove the header row.</span>
-    
-<span class="n">node_names</span> <span class="o">=</span> <span class="p">[</span><span class="n">n</span><span class="p">[</span><span class="mi">0</span><span class="p">]</span> <span class="k">for</span> <span class="n">n</span> <span class="ow">in</span> <span class="n">nodes</span><span class="p">]</span> <span class="c1"># Get a list of only the node names    </span>
-
-<span class="k">with</span> <span class="nb">open</span><span class="p">(</span><span class="s1">&#39;vw_2_all_bipartite_memberships_xid_202108181937.csv&#39;</span><span class="p">,</span> <span class="s1">&#39;r&#39;</span><span class="p">)</span> <span class="k">as</span> <span class="n">edgecsv</span><span class="p">:</span> <span class="c1"># Open the file</span>
-    <span class="n">edgereader</span> <span class="o">=</span> <span class="n">csv</span><span class="o">.</span><span class="n">reader</span><span class="p">(</span><span class="n">edgecsv</span><span class="p">)</span> <span class="c1"># Read the csv</span>
-    <span class="n">edges</span> <span class="o">=</span> <span class="p">[</span><span class="nb">tuple</span><span class="p">(</span><span class="n">e</span><span class="p">)</span> <span class="k">for</span> <span class="n">e</span> <span class="ow">in</span> <span class="n">edgereader</span><span class="p">][</span><span class="mi">1</span><span class="p">:]</span>  <span class="c1"># Retrieve the data</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[3]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#nodes</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[4]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1">#edges</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[5]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">node_names</span><span class="p">))</span>
-<span class="nb">print</span><span class="p">(</span><span class="nb">len</span><span class="p">(</span><span class="n">edges</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>3560
-9992
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell   ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[6]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">G</span> <span class="o">=</span> <span class="n">nx</span><span class="o">.</span><span class="n">Graph</span><span class="p">()</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_nodes_from</span><span class="p">(</span><span class="n">node_names</span><span class="p">)</span>
-<span class="n">G</span><span class="o">.</span><span class="n">add_edges_from</span><span class="p">(</span><span class="n">edges</span><span class="p">)</span>
-<span class="nb">print</span><span class="p">(</span><span class="n">nx</span><span class="o">.</span><span class="n">info</span><span class="p">(</span><span class="n">G</span><span class="p">))</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-<div class="jp-Cell-outputWrapper">
-
-
-<div class="jp-OutputArea jp-Cell-outputArea">
-
-<div class="jp-OutputArea-child">
-
-    
-    <div class="jp-OutputPrompt jp-OutputArea-prompt"></div>
-
-
-<div class="jp-RenderedText jp-OutputArea-output" data-mime-type="text/plain">
-<pre>Name: 
-Type: Graph
-Number of nodes: 3560
-Number of edges: 9992
-Average degree:   5.6135
-</pre>
-</div>
-</div>
-
-</div>
-
-</div>
-
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[7]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="n">nx</span><span class="o">.</span><span class="n">write_gexf</span><span class="p">(</span><span class="n">G</span><span class="p">,</span> <span class="s1">&#39;jnb_hddt_intro.gexf&#39;</span><span class="p">)</span>
-</pre></div>
-
-     </div>
-</div>
-</div>
-</div>
-
-</div>
-<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
-</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="----------------------------------------------------------------------------------------------------------">----------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#----------------------------------------------------------------------------------------------------------">&#182;</a></h1><h1 id="This-is-BIG-data!">This is BIG data!<a class="anchor-link" href="#This-is-BIG-data!">&#182;</a></h1><p><img src="intro_resized.png"></p>
+<p><img src="file_structure.png"></p>
 
 </div>
 </div>
 <div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
 </div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
-<h1 id="----------------------------------------------------------------------------------------------------------">----------------------------------------------------------------------------------------------------------<a class="anchor-link" href="#----------------------------------------------------------------------------------------------------------">&#182;</a></h1><h1 id="END">END<a class="anchor-link" href="#END">&#182;</a></h1>
-</div>
-</div><div class="jp-Cell jp-CodeCell jp-Notebook-cell jp-mod-noOutputs  ">
-<div class="jp-Cell-inputWrapper">
-<div class="jp-InputArea jp-Cell-inputArea">
-<div class="jp-InputPrompt jp-InputArea-prompt">In&nbsp;[&nbsp;]:</div>
-<div class="jp-CodeMirrorEditor jp-Editor jp-InputArea-editor" data-type="inline">
-     <div class="CodeMirror cm-s-jupyter">
-<div class=" highlight hl-ipython3"><pre><span></span> 
-</pre></div>
+<h2 id="6a-Github">6a Github<a class="anchor-link" href="#6a-Github">&#182;</a></h2><p>The entire HDDT project, its description, structure, organisation and resources are contained in one GitHub account:</p>
+<p><a href="https://github.com/KelvinBeerJones">https://github.com/KelvinBeerJones</a></p>
 
-     </div>
 </div>
 </div>
-</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="git.png"></p>
 
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6b-SQLite">6b SQLite<a class="anchor-link" href="#6b-SQLite">&#182;</a></h2><p>See 5. Entity Relationship Diagram</p>
+<p>SQLite was chosen as the database build.</p>
+<p>SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine. SQLite is the most used database engine in the world. SQLite is built into all mobile phones and most computers and comes bundled inside countless other applications that people use every day (<a href="https://www.sqlite.org/index.html">https://www.sqlite.org/index.html</a>).</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6c-VSC-(code-for-building-the-HDDT)">6c VSC (code for building the HDDT)<a class="anchor-link" href="#6c-VSC-(code-for-building-the-HDDT)">&#182;</a></h2><p>Visual Studio Code is a lightweight but powerful source code editor which runs on your desktop and is available for Windows, macOS and Linux. It comes with built-in support for JavaScript, TypeScript and Node.js and has a rich ecosystem of extensions for other languages (such as C++, C#, Java, Python, PHP, Go) and runtimes (such as .NET and Unity)(<a href="https://code.visualstudio.com/">https://code.visualstudio.com/</a>).</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="vsc.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6d-VSC-(Version-control-interface-local-to-online-Git-Repo's">6d VSC (Version control interface local to online Git Repo's<a class="anchor-link" href="#6d-VSC-(Version-control-interface-local-to-online-Git-Repo's">&#182;</a></h2><p>VSC is also used to integrate the desktop version of the HDDT with GitHub. (<a href="https://code.visualstudio.com/docs/editor/github">https://code.visualstudio.com/docs/editor/github</a>)</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="vsc_for_git _version_control.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6e-DBeaver">6e DBeaver<a class="anchor-link" href="#6e-DBeaver">&#182;</a></h2><p>Universal Database Tool</p>
+<p>DBeaver is a free multi-platform database tool for developers, database administrators, analysts and all people who need to work with databases. Supports all popular databases: MySQL, PostgreSQL, SQLite, Oracle, DB2, SQL Server, Sybase, MS Access, Teradata, Firebird, Apache Hive, Phoenix, Presto, etc.(<a href="https://dbeaver.io/">https://dbeaver.io/</a>)</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="dbeaver.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6f-Jupyter-Notebooks">6f Jupyter Notebooks<a class="anchor-link" href="#6f-Jupyter-Notebooks">&#182;</a></h2><p>The Jupyter Notebook is an open-source web application that allows you to create and share documents that contain live code, equations, visualizations and narrative text. Uses include: data cleaning and transformation, numerical simulation, statistical modeling, data visualization, machine learning. (<a href="https://jupyter.org/">https://jupyter.org/</a>).</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="jnb.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h2 id="6g-Gephi">6g Gephi<a class="anchor-link" href="#6g-Gephi">&#182;</a></h2><p>Gephi is a tool for data analysts and scientists keen to explore and understand graphs. Like Photoshop™ but for graph data, the user interacts with the representation, manipulate the structures, shapes and colors to reveal hidden patterns. The goal is to help data analysts to make hypothesis, intuitively discover patterns, isolate structure singularities or faults during data sourcing. It is a complementary tool to traditional statistics, as visual thinking with interactive interfaces is now recognized to facilitate reasoning. This is a software for Exploratory Data Analysis, a paradigm appeared in the Visual Analytics field of research.(<a href="https://gephi.org/features/">https://gephi.org/features/</a>)</p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><img src="gephi.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<p><a id='7'></a></p>
+<h1 id="7-600-Quakers-amongst-3000-activists-for-40-years.-This-is-BIG-data!">7 600 Quakers amongst 3000 activists for 40 years. This is BIG data!<a class="anchor-link" href="#7-600-Quakers-amongst-3000-activists-for-40-years.-This-is-BIG-data!">&#182;</a></h1><p><img src="big_data.png"></p>
+
+</div>
+</div>
+<div class="jp-Cell-inputWrapper"><div class="jp-InputPrompt jp-InputArea-prompt">
+</div><div class="jp-RenderedHTMLCommon jp-RenderedMarkdown jp-MarkdownOutput " data-mime-type="text/markdown">
+<h1 id="END">END<a class="anchor-link" href="#END">&#182;</a></h1>
+</div>
 </div>
 </body>
 
